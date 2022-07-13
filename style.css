@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho /*todo o conteúdo com titulo e foto*/{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__titulo /*apenas o que está no titulo no cabecalho*/{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.cabecalho__foto img /*apenas a foto que está no cabecalho*/{
+    border-radius: 100%;
+    width: 200px;
+}
+
+.cabecalho__menu /*todo o conteudon que contem os links*/{
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 20px;
+}
+
+.cabecalho__menu__config /*apenas os links*/{
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: lightpink; /*Will*/
+    border-radius: 10px; /*Will*/
+    padding: 5px;  /*Will*/
+}
+
+.cabecalho__menu a /*links*/ {
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.cabecalho__menu a:hover /*links*/{
+    text-decoration: underline; /*Will*/
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding-bottom: 2em;
+    margin: 30px;
+  
+    
+}
+
+.conteudo__prin {
+    display: flex;
+}
+
+.conteudo__config {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo__titulo {
+    background-color: pink;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.conteudo__texto {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.conteudo__extra {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.conteudo__extra__texto {
+    background-color: pink;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+.conteudo__foto {
+    display: flex;
+    justify-content: center;
+}
+.conteudo__foto img{
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
